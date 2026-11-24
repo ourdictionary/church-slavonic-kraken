@@ -1,0 +1,12 @@
+Church Slavonic print recognition model for kraken (cu_synodal_v1)
+Copyright 2026 Alexander Masenkov, Slovesitsa (https://slovesitsa.org)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This model is a fine-tuned version of "PP-OCRv6 (medium) multilingual handwritten and
+printed text recognition model" by Benjamin Kiessling,
+https://doi.org/10.5281/zenodo.21788410, Apache License 2.0.
+The weights were changed by further training on Church Slavonic print (see README.md).
+
+The training data includes line images and transcriptions from church-slavonic-ocr,
+https://github.com/slavonic/church-slavonic-ocr, Copyright (c) 2026 Aleksandr Andreev, MIT License.
